@@ -8,7 +8,6 @@ from jarvis.audio.recorder import AudioRecorder
 from jarvis.audio.stt import SpeechToText
 from jarvis.logger import JarvisLogger
 from jarvis.wake.openwakeword_listener import WakeWordListener as OpenWakeWordListener
-from jarvis.wake.porcupine_listener import WakeWordListener as PorcupineListener
 from jarvis.wake.whisper_wake import WhisperWakeListener
 
 
@@ -56,6 +55,9 @@ def create_wake_listener(
             wake_name=wake_name,
         )
     if backend == "porcupine":
+        # Import diferido: pvporcupine es opcional y no está en requirements.txt
+        from jarvis.wake.porcupine_listener import WakeWordListener as PorcupineListener
+
         return PorcupineListener(
             access_key=picovoice_access_key,
             keyword=wake_word,
