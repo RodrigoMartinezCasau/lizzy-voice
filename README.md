@@ -38,3 +38,9 @@ flowchart LR
   Brain --> Voice["Text to speech"]
   Voice --> Speaker["Speaker"]
 ```
+
+## 🎬 Demo
+
+Day 3 of the philosophical-phrase series. The line is Tony Stark's: "Sometimes you have to run before you can walk." In the video the assistant is called Jarvis. It is the same model; the name now is Lizzy.
+
+[Watch on TikTok](https://www.tiktok.com/@evoconn/video/7660194034664639766)
