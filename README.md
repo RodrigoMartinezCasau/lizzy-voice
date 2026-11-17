@@ -38,7 +38,3 @@ flowchart LR
   Brain --> Voice["Text to speech"]
   Voice --> Speaker["Speaker"]
 ```
-
-## 🎬 Demo
-
-<!-- Add a GIF or video at assets/demo.gif. Do not include user data or keys. -->
