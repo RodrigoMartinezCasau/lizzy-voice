@@ -9,10 +9,6 @@ CONTEXT_EXTENSIONS = {".md", ".txt", ".json"}
 
 PRIORITY_FILES = (
     "README.md",
-    "README.md",
-    "README.md",
-    "README.md",
-    "README.md",
 )
 
 SKIP_DIRS = {
